@@ -24,22 +24,22 @@ public class ArrayStackDemo {
                     break;
                 case "push":
                     System.out.println("请输入一个数");
-                    int value=scanner.nextInt();
+                    int value = scanner.nextInt();
                     stack.push(value);
                     break;
                 case "pop":
-                    try{
-                        int res=stack.pop();
-                        System.out.printf("出栈的数据是%d\n",res);
-                    }catch (Exception e){
+                    try {
+                        int res = stack.pop();
+                        System.out.printf("出栈的数据是%d\n", res);
+                    } catch (Exception e) {
                         System.out.println(e.getMessage());
                     }
                     break;
-                case "exit":{
-                     scanner.close();
-                     loop=false;
-                     break;
-                 }
+                case "exit": {
+                    scanner.close();
+                    loop = false;
+                    break;
+                }
             }
         }
         System.out.println("程序退出------");
