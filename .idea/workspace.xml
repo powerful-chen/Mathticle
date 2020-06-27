@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a34a04a-563a-4780-8fb5-81ee87a1a787" name="Default Changelist" comment="双向链表">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sort/ShellSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mathticle code/Sort/InserSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mathticle code/Sort/SelectSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mathticle code/Sort/SelectSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/InserSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/SelectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/SelectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mathticle code/Sort/ShellSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mathticle code/Sort/ShellSort.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -58,14 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="220">
+              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="132">
+              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -102,12 +107,13 @@
         <option value="$PROJECT_DIR$/src/Sort/InserSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/InsertSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/ShellSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="816" />
-    <option name="y" value="32" />
+    <option name="x" value="797" />
+    <option name="y" value="6" />
     <option name="width" value="1125" />
     <option name="height" value="1033" />
   </component>
@@ -168,7 +174,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ShellSort">
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Sort.BubbleSort" />
       <module name="mathticle code" />
@@ -195,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MiGong" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Recursion.MiGong" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Sort.QuickSort" />
       <module name="mathticle code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Recursion.*" />
+          <option name="PATTERN" value="Sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -235,19 +241,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MiGong" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SelectSort" />
       <item itemvalue="Application.InsertSort" />
       <item itemvalue="Application.ShellSort" />
+      <item itemvalue="Application.QuickSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.ShellSort" />
         <item itemvalue="Application.InsertSort" />
         <item itemvalue="Application.SelectSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.MiGong" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +279,7 @@
       <workItem from="1583132467589" duration="14000" />
       <workItem from="1583132506355" duration="603000" />
       <workItem from="1593053903587" duration="5117000" />
-      <workItem from="1593066559938" duration="15122000" />
+      <workItem from="1593066559938" duration="17821000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组、环形队列、单项链表代码示例">
       <created>1581860544817</created>
@@ -356,7 +362,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85009000" />
+    <option name="totallyTimeSpent" value="87708000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,7 +374,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="653" y="26" width="900" height="826" extended-state="0" />
+    <frame x="638" y="5" width="900" height="826" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19833729" />
@@ -380,7 +386,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30895522" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3079179" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -622,11 +628,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/ShellSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="220">
+          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
         </state>
       </provider>
     </entry>
