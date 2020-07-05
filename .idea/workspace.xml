@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a34a04a-563a-4780-8fb5-81ee87a1a787" name="Default Changelist" comment="双向链表">
-      <change afterPath="$PROJECT_DIR$/src/Sort/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/BinarySearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/search/SeqSearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,16 +22,34 @@
         <entry file="file://$PROJECT_DIR$/src/Sort/MergetSort.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+              <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/search/SeqSearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="418">
+              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-176">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/RadixSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="220">
+              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -70,13 +89,15 @@
         <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/MergetSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/RadixSort.java" />
+        <option value="$PROJECT_DIR$/src/search/SeqSearch.java" />
+        <option value="$PROJECT_DIR$/src/search/BinarySearch.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="770" />
     <option name="width" value="1125" />
-    <option name="height" value="1034" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -100,14 +121,14 @@
               <item name="mathticle code" type="b2602c69:ProjectViewProjectNode" />
               <item name="mathticle code" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Sort" type="462c0819:PsiDirectoryNode" />
+              <item name="search" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,13 +156,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RadixSort">
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.InsertSort" />
+  <component name="RunManager" selected="Application.BinarySearch">
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.BinarySearch" />
       <module name="mathticle code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +209,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sort.ShellSort" />
+    <configuration name="SeqSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="search.SeqSearch" />
       <module name="mathticle code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Sort.*" />
+          <option name="PATTERN" value="search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -202,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.InsertSort" />
-      <item itemvalue="Application.ShellSort" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.MergetSort" />
       <item itemvalue="Application.RadixSort" />
+      <item itemvalue="Application.SeqSearch" />
+      <item itemvalue="Application.BinarySearch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch" />
+        <item itemvalue="Application.SeqSearch" />
         <item itemvalue="Application.RadixSort" />
         <item itemvalue="Application.MergetSort" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.ShellSort" />
-        <item itemvalue="Application.InsertSort" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +262,8 @@
       <workItem from="1583132506355" duration="603000" />
       <workItem from="1593053903587" duration="5117000" />
       <workItem from="1593066559938" duration="22596000" />
-      <workItem from="1593762407133" duration="7878000" />
+      <workItem from="1593762407133" duration="8343000" />
+      <workItem from="1593931438602" duration="2104000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组、环形队列、单项链表代码示例">
       <created>1581860544817</created>
@@ -324,7 +346,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100361000" />
+    <option name="totallyTimeSpent" value="102930000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -336,7 +358,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="20" width="900" height="827" extended-state="0" />
+    <frame x="616" y="0" width="900" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19833729" />
@@ -348,7 +370,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30849478" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3080357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3079179" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -608,14 +630,28 @@
     <entry file="file://$PROJECT_DIR$/src/Sort/MergetSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="44" lean-forward="true" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/RadixSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="220">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/SeqSearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/search/BinarySearch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-176">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
