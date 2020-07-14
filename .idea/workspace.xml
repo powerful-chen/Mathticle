@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a34a04a-563a-4780-8fb5-81ee87a1a787" name="Default Changelist" comment="双向链表">
-      <change afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tree/BinaryTreeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tree/BinaryTreeDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+            <state relative-caret-position="150">
+              <caret line="235" column="9" lean-forward="true" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
               <folding>
                 <element signature="e#141#142#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
@@ -102,8 +102,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="857" />
-    <option name="y" value="2" />
+    <option name="x" value="731" />
     <option name="width" value="1125" />
     <option name="height" value="1035" />
   </component>
@@ -272,7 +271,7 @@
       <workItem from="1593053903587" duration="5117000" />
       <workItem from="1593066559938" duration="22596000" />
       <workItem from="1593762407133" duration="8343000" />
-      <workItem from="1593931438602" duration="16560000" />
+      <workItem from="1593931438602" duration="19397000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组、环形队列、单项链表代码示例">
       <created>1581860544817</created>
@@ -355,7 +354,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117386000" />
+    <option name="totallyTimeSpent" value="120223000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -367,7 +366,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="686" y="2" width="900" height="828" extended-state="0" />
+    <frame x="585" y="0" width="900" height="828" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19833729" />
@@ -379,7 +378,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30505952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30505952" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3020528" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -694,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        <state relative-caret-position="150">
+          <caret line="235" column="9" lean-forward="true" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
           <folding>
             <element signature="e#141#142#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />

@@ -30,6 +30,30 @@ public class BinaryTreeDemo {
         //测试
         System.out.println("后序遍历");
         binaryTree.postOrder();
+
+//        //前序遍历查找
+//        HeroNode resNode = binaryTree.preOrderSearch(5);
+//        if (resNode != null) {
+//            System.out.printf("找到了，信息为no=%d name=%s", resNode.getNo(), resNode.getName());
+//        } else {
+//            System.out.println("没有找到该英雄");
+//        }
+
+//        //中序遍历查找
+//        HeroNode resNode = binaryTree.infixOrderSearch(5);
+//        if (resNode != null) {
+//            System.out.printf("找到了，信息为no=%d name=%s", resNode.getNo(), resNode.getName());
+//        } else {
+//            System.out.println("没有找到该英雄");
+//        }
+
+        //后序遍历查找
+        HeroNode resNode = binaryTree.postOrderSearch(5);
+        if (resNode != null) {
+            System.out.printf("找到了，信息为no=%d name=%s", resNode.getNo(), resNode.getName());
+        } else {
+            System.out.println("没有找到该英雄");
+        }
     }
 }
 
@@ -59,12 +83,39 @@ class BinaryTree {
         }
     }
 
-    // 前序遍历
+    // 后序遍历
     public void postOrder() {
         if (this.root != null) {
             this.root.postOrder();
         } else {
             System.out.println("二叉树为空，无法遍历");
+        }
+    }
+
+    //前序查找
+    public HeroNode preOrderSearch(int no) {
+        if (root != null) {
+            return root.preOrderSearch(no);
+        } else {
+            return null;
+        }
+    }
+
+    //中序查找
+    public HeroNode infixOrderSearch(int no) {
+        if (root != null) {
+            return root.infixOrderSearch(no);
+        } else {
+            return null;
+        }
+    }
+
+    //后序查找
+    public HeroNode postOrderSearch(int no) {
+        if (root != null) {
+            return root.postOrderSearch(no);
+        } else {
+            return null;
         }
     }
 }
@@ -158,5 +209,70 @@ class HeroNode {
             this.right.preOrder();
         }
         System.out.println(this);
+    }
+
+    //前序遍历查找
+
+    /**
+     * @param no 查找no
+     * @return 如果找到就返回该Node，如果没有就找到返回 null
+     */
+    public HeroNode preOrderSearch(int no) {
+        System.out.println("前序遍历查找");
+        if (this.no == no) {
+            return this;
+        }
+        HeroNode resNode = null;
+        if (this.left != null) {
+            resNode = this.left.preOrderSearch(no);
+        }
+        if (resNode != null) {
+            return resNode;
+        }
+        if (this.right != null) {
+            resNode = this.right.preOrderSearch(no);
+        }
+        return resNode;
+    }
+
+    //中序遍历查找
+    public HeroNode infixOrderSearch(int no) {
+        HeroNode resNode = null;
+        if (this.left != null) {
+            resNode = this.left.infixOrderSearch(no);
+        }
+        if (resNode != null) {
+            return resNode;
+        }
+        System.out.println("进行中序遍历查找");
+        if (this.no == no) {
+            return this;
+        }
+        if (this.right != null) {
+            resNode = this.right.infixOrderSearch(no);
+        }
+        return resNode;
+    }
+
+    //后序遍历查找
+    public HeroNode postOrderSearch(int no) {
+        HeroNode resNode = null;
+        if (this.left != null) {
+            resNode = this.left.postOrderSearch(no);
+        }
+        if (resNode != null) {
+            return resNode;
+        }
+        if (this.right != null) {
+            resNode = this.right.postOrderSearch(no);
+        }
+        if (resNode != null) {
+            return resNode;
+        }
+        System.out.println("进行后序查找");
+        if (this.no == no) {
+            resNode = this;
+        }
+        return resNode;
     }
 }
