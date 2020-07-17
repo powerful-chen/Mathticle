@@ -19,17 +19,17 @@ public class BinaryTreeDemo {
         node3.setLeft(node5);
         binaryTree.setRoot(root);
 
-        //测试
-        System.out.println("前序遍历");
-        binaryTree.preOrder();
-
-        //测试
-        System.out.println("中序遍历");
-        binaryTree.infixOrder();
-
-        //测试
-        System.out.println("后序遍历");
-        binaryTree.postOrder();
+//        //测试
+//        System.out.println("前序遍历");
+//        binaryTree.preOrder();
+//
+//        //测试
+//        System.out.println("中序遍历");
+//        binaryTree.infixOrder();
+//
+//        //测试
+//        System.out.println("后序遍历");
+//        binaryTree.postOrder();
 
 //        //前序遍历查找
 //        HeroNode resNode = binaryTree.preOrderSearch(5);
@@ -48,12 +48,20 @@ public class BinaryTreeDemo {
 //        }
 
         //后序遍历查找
-        HeroNode resNode = binaryTree.postOrderSearch(5);
-        if (resNode != null) {
-            System.out.printf("找到了，信息为no=%d name=%s", resNode.getNo(), resNode.getName());
-        } else {
-            System.out.println("没有找到该英雄");
-        }
+//        HeroNode resNode = binaryTree.postOrderSearch(5);
+//        if (resNode != null) {
+//            System.out.printf("找到了，信息为no=%d name=%s", resNode.getNo(), resNode.getName());
+//        } else {
+//            System.out.println("没有找到该英雄");
+//        }
+
+        //测试一把删除结点
+        System.out.println("删除前，前序遍历");
+        binaryTree.preOrder();
+        binaryTree.delNode(5);
+        System.out.println("删除后，前序遍历");
+        binaryTree.preOrder();
+
     }
 }
 
@@ -118,6 +126,19 @@ class BinaryTree {
             return null;
         }
     }
+
+    // 删除结点
+    public void delNode(int no) {
+        if (root != null) {
+            if (root.getNo() != no) {
+                root.delNode(no);
+            } else {
+                root = null;
+            }
+        } else {
+            System.out.println("该树为空，不能删除");
+        }
+    }
 }
 
 //先创建 HeroNode 结点
@@ -170,6 +191,26 @@ class HeroNode {
                 "no=" + no +
                 ", name='" + name + '\'' +
                 '}';
+    }
+
+    //递归删除结点
+    //1如果是删除的结点是叶子结点，则删除该结点
+    //2如果删除的结点是非叶子结点，则删除该子树
+    public void delNode(int no) {
+        if (this.left != null && this.left.no == no) {
+            this.left = null;
+            return;
+        }
+        if (this.right != null && this.right.no == no) {
+            this.right = null;
+            return;
+        }
+        if (this.left != null) {
+            this.left.delNode(no);
+        }
+        if (this.right != null) {
+            this.right.delNode(no);
+        }
     }
 
     //编写前序遍历的方法
