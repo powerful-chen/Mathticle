@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a34a04a-563a-4780-8fb5-81ee87a1a787" name="Default Changelist" comment="双向链表">
-      <change afterPath="$PROJECT_DIR$/src/Tree/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Tree/Threadedbinarytree/ThreadedBinaryTreeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tree/HuffmanTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/mathticle code/Tree/ArrBinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mathticle code/Tree/ArrBinaryTree.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,11 +39,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Tree/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1012">
-              <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+            <state relative-caret-position="308">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Tree/HuffmanTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="55" column="64" lean-forward="true" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1776#1777#0" expanded="true" />
+                <element signature="e#485#486#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,11 +106,12 @@
         <option value="$PROJECT_DIR$/src/Tree/ArrBinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/Tree/Threadedbinarytree/ThreadedBinaryTreeDemo.java" />
         <option value="$PROJECT_DIR$/src/Tree/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/Tree/HuffmanTree.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="802" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="745" />
     <option name="width" value="1125" />
     <option name="height" value="1035" />
   </component>
@@ -106,8 +121,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -130,6 +143,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -158,7 +173,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.HuffmanTree">
     <configuration name="ArrBinaryTreeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Tree.ArrBinaryTreeDemo" />
       <module name="mathticle code" />
@@ -185,12 +200,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTabDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HashTab.HashTabDemo" />
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.HeapSort" />
       <module name="mathticle code" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="HashTab.*" />
+          <option name="PATTERN" value="Tree.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -198,8 +213,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tree.HeapSort" />
+    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tree.HuffmanTree" />
       <module name="mathticle code" />
       <extension name="coverage">
         <pattern>
@@ -225,19 +240,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HashTabDemo" />
       <item itemvalue="Application.BinaryTreeDemo" />
       <item itemvalue="Application.ArrBinaryTreeDemo" />
       <item itemvalue="Application.ThreadedBinaryTreeDemo" />
       <item itemvalue="Application.HeapSort" />
+      <item itemvalue="Application.HuffmanTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HuffmanTree" />
         <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.ThreadedBinaryTreeDemo" />
         <item itemvalue="Application.ArrBinaryTreeDemo" />
         <item itemvalue="Application.BinaryTreeDemo" />
-        <item itemvalue="Application.HashTabDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +283,8 @@
       <workItem from="1593931438602" duration="23042000" />
       <workItem from="1595051859670" duration="8676000" />
       <workItem from="1595475874696" duration="1445000" />
-      <workItem from="1595666207597" duration="1695000" />
+      <workItem from="1595666207597" duration="3549000" />
+      <workItem from="1595842049852" duration="2648000" />
     </task>
     <task id="LOCAL-00001" summary="稀疏数组、环形队列、单项链表代码示例">
       <created>1581860544817</created>
@@ -351,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135684000" />
+    <option name="totallyTimeSpent" value="140186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -363,7 +379,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="642" y="0" width="900" height="828" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.19833729" />
@@ -375,17 +391,17 @@
       <window_info id="Favorites" order="6" side_tool="true" weight="0.3297587" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.27314815" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.34164223" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="5" weight="0.32738096" />
       <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.2808642" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49932975" weight="0.27859238" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50067025" side_tool="true" weight="0.21450618" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.33035713" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32719547" />
-      <window_info anchor="bottom" id="Run" order="12" weight="0.29910713" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32589287" />
+      <window_info active="true" anchor="bottom" id="Run" order="12" visible="true" weight="0.21847507" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -585,16 +601,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/BubbleSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/SelectSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="836">
@@ -695,6 +701,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/BubbleSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/BinaryTreeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6336">
@@ -711,8 +727,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Tree/HeapSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        <state relative-caret-position="308">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk 1.8/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tree/HuffmanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="55" column="64" lean-forward="true" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1776#1777#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
